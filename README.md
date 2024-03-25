@@ -24,6 +24,6 @@ Per visualizzare la pagina web, apri il file `mhw1.html` su Chrome.
 
 Il progetto contiene:
 
--un file html
--un file css che ne definisce lo stile
--una cartella img che contiene le immagini utilizzate all'interno della pagina
+- un file html
+- un file css che ne definisce lo stile
+- una cartella img che contiene le immagini utilizzate all'interno della pagina
