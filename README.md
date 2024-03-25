@@ -27,3 +27,4 @@ Il progetto contiene:
 - un file html
 - un file css che ne definisce lo stile
 - una cartella img che contiene le immagini utilizzate all'interno della pagina
+- un file pptx che mostra il sito che si intende replicare (tripadvisor.it)
