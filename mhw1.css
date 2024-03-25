@@ -185,7 +185,7 @@ body{
     background-color: #daefed;
     border-radius: 10px;
     align-items: center;
-    padding: 1.5%;
+    padding: 20px;
     margin: 2% 10%;
 }
 
@@ -504,12 +504,16 @@ border-radius: 10px;
     }
 
     @media (max-width: 480px) {
-        body,.celleintestazione,.black,.cellericerca,meta,.others2,.final,.submeta,.hflex,.others,.first{
+        body,.celleintestazione,.black,.cellericerca,.others2,.final,.submeta,.hflex,.others,.first{
             font-size:0.7em;
         }
         
         .promo{
             font-size: 4em;
+        }
+
+        .meta{
+            font-size: 1em;
         }
 
         .subpromo{
@@ -555,4 +559,5 @@ border-radius: 10px;
         .subintbanner{
             display: none;
         }
+
     }
