@@ -1,5 +1,4 @@
 body{
-    padding: 0% 110px;
     font-family: "Urbanist", sans-serif;;
     font-weight: bold;
     color:#000;
@@ -7,22 +6,26 @@ body{
     background-color: white;
     justify-content: center;
     margin: 0px;
+    z-index: 1;
 }
 
 .topnav{
     display:flex;
-    height: 60px;
+    height: 10%;
     background-color: white;
+    justify-content: space-between;
     align-items: center;
     position: fixed;
     top:0px;
     left: 0px;
-    padding: 0% 7.2%;
-    z-index: 2;
+    width: 100%;
+    z-index: 3;
 }
 
 .logo{
     width: 16%;
+    height: auto;
+    margin-left: 10%;
 }
 
 .centerfc{
@@ -35,8 +38,8 @@ body{
 
 .celleintestazione{
     border-radius: 20px;
-    padding: 13px;
-    margin:0px 4px;
+    padding: 12px;
+    margin:1%;
 }
 
 .rightfc{
@@ -45,22 +48,22 @@ body{
     width: 16%;
     justify-content: flex-end;
     align-items: center;
+    margin-right: 10%;
 }
 
 .black{
     background-color:black;
     color: white;
     border-radius: 20px;
-    padding: 13px;
-    margin:5px;
+    padding: 12px;
 }
 
 .welcome{
     display: flex;
     justify-content: center;
     font-weight: 900;
-    font-size: 54px;
-    height:130px;
+    font-size: 380%;
+    padding-top: 6%;
     align-items: flex-end;
     letter-spacing: -2px;
 }
@@ -74,7 +77,7 @@ body{
 .cellericerca{
     display:flex;
     font-weight: 600;
-    font-size: 18px;
+    font-size: 120%;
     height: 100%;
     justify-content: center;
     align-items: center;
@@ -84,18 +87,18 @@ body{
 
 .iconeheader{
     height: 65%;
-    margin-right: 2px;
+    margin-right: 1%;
 }
 
-.lente{
-    height: 55%;
+.barraricerca img{
+    height: 100%;
     margin: 12px;
 }
 
 .barraricerca{
     display: flex;
-    height: 50px;
-    margin:25px 200px;
+    margin:2% 15%;
+    height: 40px;
     border: 2px solid lightgray;
     box-shadow: 0px 2px 4px lightgray;
     border-radius: 40px;
@@ -112,7 +115,7 @@ body{
     align-items: center;
     color: black;
     height:100%;
-    padding: 3px 15px;
+    padding: 0% 2% ;
     font-weight: bold;
     border-radius: 25px;
 }
@@ -128,52 +131,52 @@ body{
 .fsection{
     display: flex;
     background-color: #00AF87;
+    height: 480px;
     border-radius: 10px;
-    height: 470px;
     justify-content: center;
     align-items: center;
     padding:13px;
     overflow: hidden;
-    margin-top: 70px;
+    margin:5% 10%;
     box-shadow: inset 0px -200px 50px  rgba(0, 0, 0, 0.3);
 }
 
 .fsection img{
     height: 100%;
-    width: 100%;
-    margin: 7px;
+    width: auto;
+    margin: 1%;
     border-radius: 10px;
 }
 
 .sectiondesc{
     position: absolute;
-    left:125px;
-    top: 660px;
+    left:12%;
+    top: 111%;
     font-size: 40px;
     font-weight: 900;
     color: white;
-    text-shadow: 0px 0px 20px black;
+    text-shadow: 0px 0px 40px black;
 }
 
 .subsectiondesc{
     position: absolute;
-    left:125px;
-    top: 720px;
+    left:12%;
+    top: 120%;
     font-weight: 600;
     font-size: 21px;
     color: white;
-    text-shadow: 0px 0px 20px black;
+    text-shadow: 0px 0px 40px black;
 }
 
 .sectionbutton{
     position:absolute;
+    top:130%;
+    left:12%;
     background-color: white;
-    left:125px;
-    top: 790px;
     padding: 14px;
     border-radius: 20px;
     color:rgba(0, 0, 0, 0.8);
-    box-shadow: 0px 0px 20px black;
+    box-shadow: 0px 0px 40px black;
 }
 
 .bannerapp{
@@ -182,18 +185,25 @@ body{
     background-color: #daefed;
     border-radius: 10px;
     align-items: center;
-    padding: 20px;
-    margin:40px 0px;
+    padding: 1.5%;
+    margin: 2% 10%;
 }
 
 .intbanner{
-    font-size: 25px;
+    font-size: 150%;
     font-weight: 600;
+    margin: 3% 0% 0% 0%;
 }
 
 .subintbanner{
-    font-size: 16px;
+    font-size: 120%;
     font-weight: 400;
+    padding: 0px;
+    margin: 0%;
+}
+
+.subtitoloannunci{
+    margin: 0% 10%;
 }
 
 .bannerapp img{
@@ -212,6 +222,12 @@ body{
     white-space:nowrap
 }
 
+.fullbanner{
+    display: flex;
+    width:100%;
+    height:100%;
+}
+
 .buttoncontainer{
     display: flex;
     width: 100%;
@@ -224,91 +240,95 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top:6%;
+    margin: 0% 10%;
 }
  
 .link{
     color:rgba(0, 0, 0, 0.8);
     text-decoration: underline;
+    white-space: nowrap;
 }
 
 .bannercontent{
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-around;
+    height: 100%;
     flex-direction: column;
-    white-space:nowrap
-}
-
-.titoloannunci{
-    margin-top:50px;
-    padding:0px;
-    height:20px;
-    width: 100%;
 }
 
 .bannerannunci{
     display: flex;
     justify-content: space-between;
+    margin: 2% 10%;
 }
 
 .cornice{
-    width:215px;
-    height:215px;
+    display: flex;
+    padding: 0px;
+    width: 100%;
 }
 
 .cornice img{
 width: 100%;
+height: 100%;
 border-radius: 10px;
 }
 
 .annuncio{
     display: flex;
     flex-direction: column;
-    width:215px;
+    width:19%;
+    height: 30%;
 }
 
 .meta{
     display: flex;
     font-weight: 700;
-    font-size: 18px;
+    font-size: 110%;
     color: black;
     margin:0px;
-    padding:8px 0px;
     justify-content: flex-start;
+    padding-top: 2%;
+    
 }
-
-.cornice2{
-    width:270px;
-    height:270px;
-}
-
-.cornice2 img{
-    width: 100%;
-    border-radius: 10px;
-    }
 
 .annuncio2{
     display: flex;
+    position: relative;
     flex-direction: column;
-    width:270px;
+    width:24%;
+    height: 30%;
 }
 
-.preferito img{
-position: relative;
-left:215px;
-top:-260px;
-width:6%;
-background-color: white;
-border-radius: 20px;
-padding:15px;
+.cuore{
+    position: absolute;
+    top: 8px;
+    left:80%;
+    width: 7%;
+    background-color: white;
+    padding: 6%;
+    border-radius: 22px;
+}
+
+.cuore2{
+    position: absolute;
+    top: 8px;
+    left:80%;
+    width: 7%;
+    background-color: white;
+    padding: 6%;
+    border-radius: 22px;
 }
 
 .submeta{
     display: flex;
-    font-weight: 700;
+    font-weight: 600;
     font-size: 14px;
     color: black;
     margin:0px;
     justify-content: flex-start;
+    margin:3% 0%;
 }
 
 .bannerpref{
@@ -318,7 +338,7 @@ padding:15px;
     border-radius: 10px;
     align-items: center;
     padding: 20px;
-    margin:40px 0px;
+    margin:3% 10%;
 }
 
 .bannerpref img{
@@ -329,51 +349,52 @@ padding:15px;
     margin-right:20px;
 }
 
+.fullhtmlcontent{
+    display: flex;
+    flex-direction: column;
+    margin:0% 10%;
+}
+
 .fullhtml{
     display: flex;
-    position: absolute;
     background-color:#e8cdd8; 
-    left:0px;
-    right:0px;
-    padding: 30px 110px;
+    padding: 2% 0%;
     flex-direction: column;
-    justify-content: center;
+    margin: 5% 0%;
+    justify-content: space-around;
 }
-
-.cornice3{
-    width:360px;
-}
-
-.cornice3 img{
-    width: 100%;
-    border-radius: 10px;
-    }
 
 .annuncio3{
     display: flex;
     flex-direction: column;
-    width:360px;
+    width: 32%;
     }
     
     .fullhtml2{
         display: flex;
-        position: absolute;
-        background-color:#f5f7a9; 
-        top:3250px;
-        left:0px;
-        right:0px;
+        padding: 0% 10%;
         height:500px;
-        padding: 0px 110px;
+        background-color:#f5f7a9;
         justify-content: space-between;
         align-items: center;
-        overflow: hidden;
+        margin:7% 0%;   
+        overflow: hidden;     
+    }
+
+    .fullhtml2p{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 40%;
+        padding:3% 0%;
+        height: 100%;
     }
 
     .fullhtml2content{
-        width:430px;
-        flex-direction: column;
-        justify-content: center;
-        margin: 70px 0px;
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        height: 100%;
     }
 
     .promo{
@@ -388,29 +409,19 @@ padding:15px;
         font-weight: 500;
         font-size: 23px;
     }
-    .buttoncontainer2{
-        position: relative;
-        top:16px;
-        left:-8px;
-    }
 
     .bgend{
-        height: 350px;
-    }
-
-    .bgend img{
-        height: 100%;
-        border-radius: 200px;
+        display: flex;
+        width:60%;
+        background: contain;
+        overflow: hidden;
+        border-radius: 300px;
     }
 
     footer{
-        position: absolute;
-        left: 0;
-        height: 350px;
-        width: 100%;
+        flex-direction: column;
         background-color: #e8cdd8;
-        margin-top: 1050px;
-        
+        padding: 2% 0%;
     }
 
     .first{
@@ -425,8 +436,13 @@ padding:15px;
 
     .footcontainer{
         display: flex;
-        margin: 20px 110px;
+        margin: 1% 10%;
         justify-content: space-between;
+    }
+
+    .fc2{
+        display: flex;
+        margin: 0% 10%;
     }
 
     .others2{
@@ -436,28 +452,26 @@ padding:15px;
     }
 
     .fc2 img{
-        margin-left: 110px;
         height: 40px;
     }
 
     .hflex{
-        position: relative;
-        left: 50px;
-        top:-45px;
-        height:50px;
-        margin: 0px 110px;
+        margin: 0%;
         font-size: 12px;
         font-weight: 400;
-        padding:0px
+        padding:0px;
+    }
+
+    .linkfccontainer{
+        display: flex;
+        width: 70%;
+        margin-top: 0%;
+        margin-left: 1%;
+        flex-direction: column;
     }
 
     .linkfc{
         display: flex;
-        position: relative;
-        left: 160px;
-        top:-75px;
-        width:700px;
-        white-space: nowrap;
         justify-content: space-between;
     }
 
@@ -465,32 +479,80 @@ padding:15px;
         display: flex;
         height:100%;
         justify-content: flex-end;
+        align-items: center;
     }
 
     .logocontainer img{
         width: auto;
         height: 25px;
-        margin:10px;
+        margin:4%
     }
 
     .finalfc{
-        position: relative;
-        top:-60px;
         display: flex;
         height:50px;
-        margin:0px 110px;
+        margin:0% 10%;
         justify-content: space-between;
     }
 
     .final{
+        display: flex;
         width:70%;
+        align-items: center;
         font-size: 12px;
         font-weight: 400;
     }
 
-    @media (max-width: 500px) {
-        .welcome{
+    @media (max-width: 480px) {
+        body,.celleintestazione,.black,.cellericerca,meta,.others2,.final,.submeta,.hflex,.others,.first{
+            font-size:0.7em;
+        }
+        
+        .promo{
+            font-size: 4em;
+        }
+
+        .subpromo{
+            font-size: 1em;
+        }
+
+        .bannercontent{
+            width:50%;
+        }
+
+        .fullhtml{
+            padding: 5% 5%;
+        }
+
+        .linkfc{
+            margin:3%;
+        }
+
+        .sectiondesc{
             font-size: 2em;
-            white-space: nowrap;
         }
+
+        .subsectiondesc{
+            position: absolute;
+            top:122%;
+            font-size: 1em;
         }
+
+        .sectionbutton{
+            position: absolute;
+            top:128%;
+            box-shadow: none;
+        }
+
+        .bgend{
+            width:48%;
+        }
+
+        .intbanner{
+            font-size: 1.5em;
+        }
+
+        .subintbanner{
+            display: none;
+        }
+    }
